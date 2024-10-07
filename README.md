@@ -1,5 +1,32 @@
-In this project we emulate all data structures which are used by operating system to manage File system oriented tasks. As the name suggest its virtual because we maintain all records in Primary storage. In this project we create all data structures which required for File Subsystems as Inode Inode Table, File Table, UAREA, User File Descriptor Table, Super block, Disk Inode List Block, Data Block, Boot Block etc We provide all implementations of necessary system calls and commands of File subsystem as Open, Close, Read, Write, Lseek, Create, RM, LS, Stat, Fstat etc. While providing the implementations of all above functionality we use our own data structures by referring Algorithms of UNNIX operating system. By using this project we can get overview of UFS (UNIX File System) on any platform.
+# Customised-Virtual-File-System
+This project emulates the internal working of the LINUX/UNIX file systems . as the name suggests ‘Virtual’ all of the operations are performed on the RAM itself  This project include the implementation of the system calls , following are the system calls.  create , open , close , closeall , read , write , lseek , rm , ls , stat , fstat. 
 
-Technology used : System Programming using C
 
-Architectural Requirement : Intel 32 bit processor
+
+# Name of the project:
+Customised Virtual File System
+
+# Technology used:
+C programming language.
+
+
+# User interface used: 
+Command Line Interface
+
+# Description of the project: 
+This project emulates the internal working of the LINUX/UNIX file systems .
+as the name suggests ‘Virtual’ all of the operations are performed on the RAM itself
+
+
+# Data structures used in the project: 
+1. Array:
+Required for UFDT.
+
+2. Linked List :
+Required for DILB
+Diagram of data structures used in the project: 
+![image](https://github.com/ShashankMakhija/Customised-Virtual-File-System/assets/95210501/9ce4d5e6-a9e2-4c66-9060-46fcb898c21d)
+
+
+
+
